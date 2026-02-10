@@ -17,18 +17,22 @@ Cloner ce dépôt. Exécuter la commande suivante dans un terminal:
 
 ## Utilisation des notebooks
 
-# Lancement de l'environnement docker
+### Lancement de l'environnement docker
+
+Saisir dans un terminal la commande suivante
 ```
 docker compose up --build
 ```
 
-# Accès au notebook en local
+### Accès au notebook en local
+Ouvrir un browser (ex: Chrome) et copier l'adresse suivante
 ```
 http://localhost:8888
 
 ```
 
-# Arrêt
+### Arrêt
+Pour fermer l'environnement, copier dans un terminal
 ```
 docker compose down
 ```
