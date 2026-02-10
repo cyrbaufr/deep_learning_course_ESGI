@@ -1,0 +1,13 @@
+# Deep learning
+torch
+torchvision
+torchaudio
+tensorflow
+keras
+
+# Notebooks / utils
+ipykernel
+matplotlib
+numpy
+pandas
+scikit-learn
