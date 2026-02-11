@@ -11,3 +11,7 @@ matplotlib
 numpy
 pandas
 scikit-learn
+pydot
+graphviz
+opencv-python
+seaborn
