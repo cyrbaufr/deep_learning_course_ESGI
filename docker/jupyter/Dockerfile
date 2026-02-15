@@ -5,7 +5,7 @@ ENV TZ=Europe/Paris
 
 # Installation des librairies deep learning & ML
 COPY requirements.txt /tmp/requirements.txt
-RUN pip install --no-cache-dir -r /tmp/requirements.txt
+RUN pip install --no-cache-dir -i https://pypi.org/simple/ --trusted-host pypi.org --default-timeout=100 -r /tmp/requirements.txt
 
 # démarrage Jupyter sans token pour simplifier en local
 CMD ["start-notebook.sh", "--NotebookApp.token="]
